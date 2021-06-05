@@ -5,10 +5,10 @@
     "node": "14.16.1"
   },
   "description": "Backend construido em Node.js para criação de API rest para um projeto de sistema de atendimento medico como desafio final da afya-labs em parceria com a Gama Academy",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src index.js",
+    "dev": "nodemon ./src app.js",
     "build": "sucrase ./src -d ./dist --transforms imports",
     "start": "node dist/app.js"
   },
